@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  blinkit-clone:
+    container_name: blinkit-clone-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: blinkit-clone:1.0
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+    environment:
+      TZ: Asia/Kolkata
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
