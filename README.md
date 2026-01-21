@@ -73,8 +73,9 @@ Docker automatically checks:
 
 http://localhost
 
-
 Container status can be verified using:
+
+
 
 docker ps
 
