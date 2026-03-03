@@ -138,10 +138,10 @@ Your Name
 DevOps | Cloud | Full Stack Engineer
 
 
-GitHub: https://github.com/yourusername
+GitHub: https://github.com/mdistekhar
 
 
-LinkedIn: https://linkedin.com/in/yourprofile
+LinkedIn: https://www.linkedin.com/in/md-istekhar-5b26b6238/
 
 📜 License
 
